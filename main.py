@@ -84,5 +84,4 @@ async def challenge(interaction: discord.Interaction, choice: str):
     await determine_winner(choice.lower(), bot_choice)
 
 #Main
-if __name__ == "__main__":
-    client.run(DISCORD_TOKEN)
+client.run(DISCORD_TOKEN)
